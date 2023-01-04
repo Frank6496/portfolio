@@ -38,7 +38,7 @@ with st.container():
 # =================== SKILLS SECTION 
 with st.container():
     st.write("---")
-    st.header("Skiils")
+    st.header("Skills")
     # st.write("##")
     l_column, m_column, r_column = st.columns((1, 1, 1))
 
