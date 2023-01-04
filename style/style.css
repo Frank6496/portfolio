@@ -30,4 +30,14 @@ button[type=submit]:hover {
 /* Hide Streamlit Branding */
 #MainMenu {visibility: hidden;}
 footer {visibility: hidden;}
+footer:after {
+  visibility: visible;
+  content: 'Copyright @2023 Made Francis with \01F63B	';
+  display: block;
+  color: aliceblue;
+  position: relative;
+  /* background-color: #04AA6D; */
+  width: 100%;
+  font-size: large;
+}
 header {visibility: hidden;}

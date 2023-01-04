@@ -144,13 +144,12 @@ with st.container():
             """
         )
         st.markdown("[Click me](https://mapesa.vercel.app/)")
-
-
+    st.markdown("[Visit my Github repo for more projects](https://github.com/Frank6496/)")
 # =================== CONTACT DETAILS FORM 
 with st.container():
     st.write("---")
     st.header("Get In Touch With Me!")
-    st.write("##")
+    # st.write("##")
 
     # Documention: https://formsubmit.co/ 
     contact_form = """
@@ -158,6 +157,7 @@ with st.container():
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="name" placeholder="Your name" required>
         <input type="email" name="email" placeholder="Your email" required>
+        <input type="text" name="subject" placeholder = "Subject : Optional" optional>
         <textarea name="message" placeholder="Your message here" required></textarea>
         <button type="submit">Send</button>
     </form>
